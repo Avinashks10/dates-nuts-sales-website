@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Products | Royal Dates & Nuts</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+<header>
+
+  <div class="logo">
+    Royal Dates & Nuts
+  </div>
+
+  <!-- HAMBURGER -->
+
+  <div class="menu-toggle" id="menuToggle">
+    ☰
+  </div>
+
+  <!-- NAVIGATION -->
+
+  <nav class="navbar" id="navbar">
+
+    <a href="index.html" class="nav-link">
+      Home
+    </a>
+
+    <a href="products.html" class="nav-link active">
+      Products
+    </a>
+
+    <a href="index.html#about" class="nav-link">
+      About
+    </a>
+
+    <a href="index.html#contact" class="nav-link">
+      Contact
+    </a>
+
+  </nav>
+
+  <button class="shop-btn">
+    Shop Now
+  </button>
+
+</header>
+
+  <!-- PAGE HERO -->
+
+  <section class="page-hero">
+
+    <div class="page-overlay"></div>
+
+    <div class="page-content">
+      <h1>Our Premium Products</h1>
+
+      <p>
+        Freshly sourced luxury dates, nuts and dry fruits.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- SEARCH & FILTER -->
+
+<section class="search-filter">
+
+  <!-- SEARCH BAR -->
+
+  <input 
+  type="text" 
+  id="searchInput"
+  placeholder="Search products...">
+
+  <!-- FILTER BUTTONS -->
+
+  <div class="filter-buttons">
+
+    <button class="filter-btn active-filter" data-filter="all">
+      All
+    </button>
+
+    <button class="filter-btn" data-filter="dates">
+      Dates
+    </button>
+
+    <button class="filter-btn" data-filter="nuts">
+      Nuts
+    </button>
+
+    <button class="filter-btn" data-filter="mix">
+      Mix Packs
+    </button>
+
+  </div>
+
+</section>
+  <!-- PRODUCTS -->
+
+  <section class="products">
+
+    <div class="product-container">
+
+      <!-- PRODUCT 1 -->
+
+      <div class="product-card" data-category="dates">
+
+        <div class="product-image">
+          <img src="images/ajwa-dates.png">
+        </div>
+
+        <div class="product-info">
+
+          <h3>Ajwa Dates</h3>
+
+          <p>
+            Premium Saudi Arabian Ajwa dates.
+          </p>
+
+          <div class="price-cart">
+
+  <span>₹499 / kg</span>
+
+</div>
+
+<div class="quantity-section">
+
+  <button class="qty-btn minus">-</button>
+
+  <input type="number" value="1" min="1" class="quantity-input">
+
+  <button class="qty-btn plus">+</button>
+
+</div>
+
+<a 
+href="#"
+class="whatsapp-btn order-btn"
+data-product="Ajwa Dates">
+
+Order on WhatsApp
+
+</a>
+        </div>
+
+      </div>
+
+      <!-- PRODUCT 2 -->
+
+        <div class="product-card" data-category="nuts">
+
+        <div class="product-image">
+          <img src="images/almonds.png">
+        </div>
+
+        <div class="product-info">
+
+          <h3>California Almonds</h3>
+
+          <p>
+            Fresh and crunchy premium almonds.
+          </p>
+
+          <div class="price-cart">
+
+  <span>₹499 / kg</span>
+
+</div>
+
+<div class="quantity-section">
+
+  <button class="qty-btn minus">-</button>
+
+  <input type="number" value="1" min="1" class="quantity-input">
+
+  <button class="qty-btn plus">+</button>
+
+</div>
+
+<a 
+href="#"
+class="whatsapp-btn order-btn"
+data-product="California Almonds">
+
+Order on WhatsApp
+
+</a>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCT 3 -->
+
+      <div class="product-card" data-category="nuts">
+
+        <div class="product-image">
+          <img src="images/cashew.png">
+        </div>
+
+        <div class="product-info">
+
+          <h3>Premium Cashews</h3>
+
+          <p>
+            Delicious creamy farm-fresh cashews.
+          </p>
+
+          <div class="price-cart">
+
+  <span>₹499 / kg</span>
+
+</div>
+
+<div class="quantity-section">
+
+  <button class="qty-btn minus">-</button>
+
+  <input type="number" value="1" min="1" class="quantity-input">
+
+  <button class="qty-btn plus">+</button>
+
+</div>
+
+<a 
+href="#"
+class="whatsapp-btn order-btn"
+data-product="Premium Cashews">
+
+Order on WhatsApp
+
+</a>
+
+        </div>
+
+      </div>
+
+      <!-- PRODUCT 4 -->
+
+      <div class="product-card" data-category="nuts">
+
+        <div class="product-image">
+          <img src="images/pistachio.png">
+        </div>
+
+        <div class="product-info">
+
+          <h3>Salted Pistachios</h3>
+
+          <p>
+            Healthy and tasty roasted pistachios.
+          </p>
+
+          <div class="price-cart">
+
+  <span>₹499 / kg</span>
+
+</div>
+
+<div class="quantity-section">
+
+  <button class="qty-btn minus">-</button>
+
+  <input type="number" value="1" min="1" class="quantity-input">
+
+  <button class="qty-btn plus">+</button>
+
+</div>
+
+<a 
+href="#"
+class="whatsapp-btn order-btn"
+data-product="Salted Pistachios">
+
+Order on WhatsApp
+
+</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h3>Royal Dates & Nuts</h3>
+
+    <p>
+      Healthy Snacks, Premium Lifestyle.
+    </p>
+
+  </footer>
+
+  <a 
+href="https://wa.me/918111911675"
+class="floating-whatsapp"
+target="_blank">
+
+💬
+
+</a>
+
+<script src="script.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration:1200,
+    once:true
+  });
+</script>
+</body>
+
+</html>
